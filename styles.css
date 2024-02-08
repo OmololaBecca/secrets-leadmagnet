@@ -68,7 +68,11 @@ body{
 
 @media(max-width:600px){
     .image-div img{
-        width:550px;
+        width:340px;
+        
+    }
+    .text-div{
+        width:280px;
         
     }
 }
