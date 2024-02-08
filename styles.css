@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
 
   
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
 
 
 body{
@@ -15,16 +17,19 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: "Montserrat";
+    font-family: "Roboto Mono";
 }
 .logo-div h4{
-    font-family:"Dancing Script";
+    font-weight:700;
 }
 .personal-details-div{
     display:flex;
     align-items: center;
     justify-content: center;
     gap:10px;
+}
+.about-us-div{
+    font-size: 13px;
 }
 
   hr{
