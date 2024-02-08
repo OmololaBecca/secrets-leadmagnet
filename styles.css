@@ -68,15 +68,12 @@ body{
 
 @media(max-width:600px){
     .image-div img{
-        width:320px;
-        
+        width:330px;  
     }
     .text-div{
         width:260px;  
     }
-    .access-div{
-        margin:30px 0px; 
-    }
+   
     .access-button{
         width:70px;
         height:30px;
@@ -89,6 +86,34 @@ body{
         font-size: 14px;
     }
     h1{
-        font-size:25px;
+        font-size:20px;
     }
+    .header{
+        padding-left: 23px;
+        font-size:18px;
+    }
+}
+@media(max-width:800px){
+    .image-div img{
+        width:350px;  
+    }
+    .text-div{
+        width:500px;  
+    }
+
+    .access-button{
+        width:100px;
+        height:40px;
+        font-size: 20px;
+    }
+    h2{
+        font-size:19px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h1{
+        font-size:27px;
+    }
+    
 }
