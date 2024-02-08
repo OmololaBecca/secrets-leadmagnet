@@ -12,7 +12,7 @@ body{
  margin:0;
 }
 .parent-container{
-    padding:30px;
+    
     display:flex;
     justify-content: center;
     align-items: center;
@@ -68,11 +68,27 @@ body{
 
 @media(max-width:600px){
     .image-div img{
-        width:340px;
+        width:320px;
         
     }
     .text-div{
-        width:280px;
-        
+        width:260px;  
+    }
+    .access-div{
+        margin:30px 0px; 
+    }
+    .access-button{
+        width:70px;
+        height:30px;
+        font-size: 18px;
+    }
+    h2{
+        font-size:20px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h1{
+        font-size:25px;
     }
 }
