@@ -67,11 +67,15 @@ body{
 }
 
 @media(max-width:600px){
+    .parent-container{
+    
+    padding:30px;
+}
     .image-div img{
         width:330px;  
     }
     .text-div{
-        width:260px;  
+        width:240px;  
     }
    
     .access-button{
@@ -114,6 +118,5 @@ body{
     }
     h1{
         font-size:27px;
-    }
-    
+    }    
 }
