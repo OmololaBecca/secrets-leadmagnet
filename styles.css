@@ -90,6 +90,7 @@ body{
     }
     
     .header{
+        padding-left: 0px;
         font-size:14px;
     }
 }
